@@ -5,10 +5,10 @@
 # ลิ้งสำหรับ
 https://api.xpluem.com/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน
 
+https://gift.truemoney.com/campaign/?v=ลิ้งอั่งเปา  <---- ลิ้งอั่งเปาคือลิ้งหลัง ?v= ตรงนี้นะครับ อย่าลืมเขียนตัด String กันด้วย
+
 # ตัวอย่าง
 https://api.xpluem.com/Test/0123456789
-
-https://gift.truemoney.com/campaign/?v=ลิ้งอั่งเปา  <---- ลิ้งอั่งเปาคือลิ้งหลัง ?v= ตรงนี้นะครับ อย่าลืมเขียนตัด String กันด้วย
 
 
 # Errors & Success
