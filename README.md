@@ -3,7 +3,7 @@
 
 ชื่อ บัญชี ด.ช ปฏิภาณ ศรีเอี่ยมกุล
 # ลิ้งสำหรับ
-https://api.xpluem.com/api/free/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน
+https://api.xpluem.com/ลิ้งอั่งเปา/เบอร์ผู้รับเงิน
 
 https://gift.truemoney.com/campaign/?v=ลิ้งอั่งเปา  <---- ลิ้งอั่งเปาคือลิ้งหลัง ?v= ตรงนี้นะครับ อย่าลืมเขียนตัด String กันด้วย
 
@@ -43,7 +43,7 @@ $tel = "กรอกเบอร์ผู้รับ";
 function giftvoucher($url, $tel){
         $curl = curl_init();
         curl_setopt_array($curl, array(
-        CURLOPT_URL => 'http://103.141.68.26/api/free/'.$url.'/'.$tel,
+        CURLOPT_URL => 'https://api.xpluem.com/'.$url.'/'.$tel,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
